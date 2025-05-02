@@ -6,23 +6,23 @@ import { ImagesSliderDemo } from "../sliderImage";
 
 const HeroSection = () => {
   return (
-    <div className="relative w-full h-screen bg-black text-white overflow-hidden px-8">
+    <div className="relative w-full min-h-screen bg-black text-white overflow-hidden px-8 ">
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <ImagesSliderDemo />
       </div>
 
       {/* Overlay escuro */}
-      <div className="absolute inset-0 bg-black/30 z-10" />
+      <div className="absolute inset-0 bg-black/30 z-1" />
 
       {/* Navbar sobreposta */}
-      <div className="relative z-20 pt-5">
+      <div className="relative z-2 pt-5">
         <NavbarDemo />
       </div>
 
       {/* Conteúdo principal */}
-      <div className="relative z-20 container mx-auto px-6 py-24 flex flex-col md:flex-row items-center justify-between min-h-[calc(100vh-80px)]">
-        {/* Texto */}
+      <div className="relative z-2 container mx-auto md:px-6 md:py-24 sm:p-0 flex flex-col md:flex-row items-center justify-between min-h-[calc(100vh-80px)]">
+
         <div className="w-full md:w-1/2 mb-12 md:mb-0 text-center md:text-left">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-6">
             <span className="block text-gray-300">BEM-VINDO À</span>
@@ -44,7 +44,7 @@ const HeroSection = () => {
         {/* Imagem do personagem */}
         <div className="w-full md:w-1/2 h-full">
           <div className="relative w-full h-[calc(100vh-80px)] max-h-[600px]">
-            <div className="absolute inset-0 rounded-xl z-10" />
+            <div className="absolute inset-0 rounded-xl z-1" />
             <Image
               src="/time.jpg"
               alt="Time da FURIA Academy"

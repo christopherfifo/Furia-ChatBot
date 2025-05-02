@@ -1,5 +1,6 @@
 "use client";
 
+import Chatbot from "./components/sections/chatbot";
 import HeroSection from "./components/sections/heroSection";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div className="w-full h-full bg-slate-900">
       <HeroSection />
     </div>
+
   );
 };
 

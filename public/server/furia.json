@@ -1,0 +1,282 @@
+{
+  "furia_esports": {
+    "nome": "FURIA Esports",
+    "jogo": "Counter-Strike: Global Offensive (CS:GO)",
+    "regiao": "Brasil",
+    "fundacao": 2017,
+    "sede": "São Paulo, Brasil",
+    "organizacao": {
+      "ceo": {
+        "nome": "Jaime Pádua",
+        "descricao": "Fundador e CEO da FURIA, Jaime é um dos principais responsáveis pelo crescimento da organização no cenário de esports brasileiro e internacional. Sob sua liderança, a FURIA se tornou uma das marcas mais reconhecidas do CS:GO."
+      },
+      "coach_principal": {
+        "nickname": "guerri",
+        "nome": "Nicholas Nogueira",
+        "idade": 32,
+        "pais": "Brasil",
+        "descricao": "Um dos técnicos mais respeitados do cenário, guerri é conhecido por seu trabalho tático e desenvolvimento de jogadores. Foi peça fundamental na ascensão da FURIA ao topo do CS:GO mundial."
+      },
+      "analistas": [
+        {
+          "nickname": "duda",
+          "nome": "Eduardo Marino",
+          "descricao": "Analista estratégico da FURIA, especializado em estudo de adversários e preparação de mapas."
+        },
+        {
+          "nickname": "camelto",
+          "nome": "Raphael Camargo",
+          "descricao": "Analista de desempenho, focado em estatísticas e otimização de rotinas de treino."
+        }
+      ]
+    },
+    "time_principal": {
+      "jogadores": [
+        {
+          "nickname": "arT",
+          "nome": "Andrei Piovezan",
+          "idade": 27,
+          "pais": "Brasil",
+          "funcao": "IGL (In-Game Leader) / AWP",
+          "descricao": "Líder in-game e símbolo do 'FURIA Style', arT é conhecido por suas jogadas agressivas e imprevisíveis. Considerado um dos capitães mais criativos do CS:GO.",
+          "rating": 1.05,
+          "melhor_mapa": "Mirage",
+          "kda": "1.10"
+        },
+        {
+          "nickname": "KSCERATO",
+          "nome": "Kaike Cerato",
+          "idade": 24,
+          "pais": "Brasil",
+          "funcao": "Entry Fragger",
+          "descricao": "Destaque constante da FURIA, KSCERATO é um dos jogadores mais consistentes do mundo, com mecânicas precisas e clutches memoráveis. Top 20 mundial em 2022 (HLTV).",
+          "rating": 1.2,
+          "melhor_mapa": "Inferno",
+          "kda": "1.25"
+        },
+        {
+          "nickname": "yuurih",
+          "nome": "Yuri Boian",
+          "idade": 23,
+          "pais": "Brasil",
+          "funcao": "Rifler / Support",
+          "descricao": "Versátil e frio em situações críticas, yuurih é conhecido por suas performances em playoffs e contra times top-tier.",
+          "rating": 1.15,
+          "melhor_mapa": "Overpass",
+          "kda": "1.18"
+        },
+        {
+          "nickname": "chelo",
+          "nome": "Marcelo Cespedes",
+          "idade": 26,
+          "pais": "Brasil",
+          "funcao": "Rifler / Lurker",
+          "descricao": "Jogador experiente com passagem por times como MIBR, chelo traz estabilidade e conhecimento tático ao time.",
+          "rating": 1.08,
+          "melhor_mapa": "Vertigo",
+          "kda": "1.12"
+        },
+        {
+          "nickname": "FalleN",
+          "nome": "Gabriel Toledo",
+          "idade": 32,
+          "pais": "Brasil",
+          "funcao": "AWP / Líder",
+          "descricao": "Lenda do CS:GO brasileiro, FalleN é dois vezes campeão de Major e traz experiência, liderança e um AWP mortal para a FURIA.",
+          "rating": 1.12,
+          "melhor_mapa": "Dust2",
+          "kda": "1.15"
+        }
+      ],
+      "tecnico": {
+        "nickname": "guerri",
+        "nome": "Nicholas Nogueira",
+        "idade": 32,
+        "pais": "Brasil",
+        "descricao": "Técnico da FURIA desde 2018, guerri foi essencial para moldar o estilo agressivo do time e transformá-lo em uma potência global. Antes de treinar, foi jogador semi-profissional."
+      },
+      "melhores_mapas": ["Mirage", "Inferno", "Overpass", "Vertigo"],
+      "vitorias_totais": 245,
+      "derrotas_totais": 130,
+      "campeonatos_vencidos": [
+        "ESL Pro League Season 13 (2021)",
+        "DreamHack Open Rio 2020",
+        "cs_summit 6 (2020)"
+      ],
+      "ranking_atual": "Top 15 mundial (HLTV)"
+    },
+    "furia_academy": {
+      "descricao": "Time de desenvolvimento da FURIA, focado em revelar novos talentos para o cenário brasileiro.",
+      "coach": {
+        "nickname": "TK",
+        "nome": "Thiago Kosinski",
+        "descricao": "Ex-jogador e técnico da Academy, TK é especialista em nutrir jovens talentos e prepará-los para o time principal."
+      },
+      "jogadores": [
+        {
+          "nickname": "dgt",
+          "nome": "Douglas Soares",
+          "idade": 20,
+          "pais": "Brasil",
+          "funcao": "Entry Fragger",
+          "descricao": "Jovem promessa com mecânicas sólidas e estilo agressivo, visto como possível futuro substituto para o time principal.",
+          "rating": 1.02
+        },
+        {
+          "nickname": "b4rtiN",
+          "nome": "Gabriel Bortolini",
+          "idade": 19,
+          "pais": "Brasil",
+          "funcao": "Rifler",
+          "descricao": "Destacou-se em torneios regionais pela sua consistência em duelos individuais.",
+          "rating": 0.98
+        },
+        {
+          "nickname": "gbb",
+          "nome": "Gabriel Pinheiro",
+          "idade": 18,
+          "pais": "Brasil",
+          "funcao": "AWP",
+          "descricao": "Awper promissor, comparado a FalleN por seu posicionamento e paciência.",
+          "rating": 1.05
+        },
+        {
+          "nickname": "DeStiNy",
+          "nome": "Bruno Fernandes",
+          "idade": 21,
+          "pais": "Brasil",
+          "funcao": "Support",
+          "descricao": "Jogador cerebral, conhecido por suas jogadas táticas e suporte ao time.",
+          "rating": 0.95
+        },
+        {
+          "nickname": "Raulzito",
+          "nome": "Raul Oliveira",
+          "idade": 20,
+          "pais": "Brasil",
+          "funcao": "IGL",
+          "descricao": "Líder da Academy, aprendendo com arT e guerri para futuramente assumir o time principal.",
+          "rating": 1.0
+        }
+      ],
+      "melhores_mapas": ["Mirage", "Nuke", "Inferno"],
+      "vitorias_totais": 78,
+      "derrotas_totais": 45
+    },
+    "ultimos_3_jogos": [
+      {
+        "data": "2023-10-15",
+        "evento": "IEM Rio 2023",
+        "adversario": "Team Liquid",
+        "resultado": "2-1 (Vitória)",
+        "mapas_jogados": [
+          {
+            "nome": "Mirage",
+            "placar": "16-12",
+            "destaque": "KSCERATO (25 kills, 1.40 rating)"
+          },
+          {
+            "nome": "Overpass",
+            "placar": "10-16",
+            "destaque": "FalleN (22 kills, 1.15 rating)"
+          },
+          {
+            "nome": "Inferno",
+            "placar": "16-14",
+            "destaque": "yuurih (27 kills, 1.50 rating)"
+          }
+        ],
+        "mvp": "yuurih"
+      },
+      {
+        "data": "2023-10-10",
+        "evento": "BLAST Premier Fall Groups",
+        "adversario": "Natus Vincere (NaVi)",
+        "resultado": "1-2 (Derrota)",
+        "mapas_jogados": [
+          {
+            "nome": "Vertigo",
+            "placar": "16-14",
+            "destaque": "arT (23 kills, 1.30 rating)"
+          },
+          {
+            "nome": "Ancient",
+            "placar": "8-16",
+            "destaque": "chelo (18 kills, 1.05 rating)"
+          },
+          {
+            "nome": "Dust2",
+            "placar": "12-16",
+            "destaque": "FalleN (20 kills, 1.10 rating)"
+          }
+        ],
+        "mvp": "s1mple (NaVi)"
+      },
+      {
+        "data": "2023-10-05",
+        "evento": "ESL Pro League Season 18",
+        "adversario": "G2 Esports",
+        "resultado": "2-0 (Vitória)",
+        "mapas_jogados": [
+          {
+            "nome": "Mirage",
+            "placar": "16-10",
+            "destaque": "KSCERATO (24 kills, 1.45 rating)"
+          },
+          {
+            "nome": "Inferno",
+            "placar": "16-13",
+            "destaque": "yuurih (21 kills, 1.30 rating)"
+          }
+        ],
+        "mvp": "KSCERATO"
+      }
+    ],
+    "proximos_jogos": [
+      {
+        "data": "2023-11-02",
+        "evento": "BLAST Premier Fall Finals",
+        "adversario": "Heroic",
+        "formato": "MD3 (Melhor de 3)"
+      },
+      {
+        "data": "2023-11-10",
+        "evento": "IEM Cologne 2023",
+        "adversario": "Astralis",
+        "formato": "MD1 (Melhor de 1)"
+      }
+    ],
+    "curiosidades": [
+      "A FURIA foi a primeira equipe brasileira a vencer a ESL Pro League (2021).",
+      "KSCERATO tem o 4º maior rating em mapas de Inferno em 2023 (1.30).",
+      "FalleN é o único jogador da FURIA que já disputou um Major antes de 2020."
+    ],
+    "momentos_historicos": [
+      "Primeira participação em Major: StarLadder Berlin 2019.",
+      "Melhor colocação em Major: Top 4 no PGL Antwerp 2022."
+    ],
+    "parceiros_e_patrocinadores": ["Red Bull", "Nike", "Betway", "HyperX"],
+    "redes_sociais": {
+      "twitter": {
+        "url": "https://twitter.com/FURIA",
+        "descricao": "Perfil oficial da FURIA no Twitter (X), com atualizações sobre jogos, notícias e interação com fãs."
+      },
+      "instagram": {
+        "url": "https://www.instagram.com/furia",
+        "descricao": "Instagram da FURIA, com conteúdos exclusivos, bastidores e fotos dos jogadores."
+      },
+      "facebook": {
+        "url": "https://www.facebook.com/FURIA",
+        "descricao": "Página oficial no Facebook, com transmissões ao vivo e discussões com a comunidade."
+      },
+      "twitch": {
+        "url": "https://www.twitch.tv/furia",
+        "descricao": "Canal da Twitch onde a FURIA transmite jogos, reações e eventos especiais."
+      },
+      "youtube": {
+        "url": "https://www.youtube.com/c/FURIA",
+        "descricao": "YouTube oficial com highlights, documentários e vlogs do time."
+      }
+    }
+  }
+}

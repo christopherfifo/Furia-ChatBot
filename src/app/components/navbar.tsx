@@ -1,34 +1,35 @@
 "use client";
+import React from "react";
+import { FloatingNav } from "@/components/ui/floating-navbar";
+import { IconHome, IconUsers, IconInfoCircle, IconMessages } from "@tabler/icons-react";
 
-import {
-  Navbar,
-  NavBody,
-  NavItems,
-  NavbarLogo,
-  NavbarButton,
-} from "@/components/ui/resizable-navbar";
-
-const NavbarDemo = () => {
+export function FloatingNavDemo() {
   const navItems = [
-    { name: "Features", link: "#features" },
-    { name: "Pricing", link: "#pricing" },
-    { name: "Contact", link: "#contact" },
+    {
+      name: "Home",
+      link: "/",
+      icon: <IconHome className="h-4 w-4 text-neutral-500" />,
+    },
+    {
+      name: "Time",
+      link: "/team",
+      icon: <IconUsers className="h-4 w-4 text-neutral-500" />,
+    },
+    {
+      name: "Sobre",
+      link: "/about",
+      icon: <IconInfoCircle className="h-4 w-4 text-neutral-500" />,
+    },
+    {
+      name: "Chat",
+      link: "/chat",
+      icon: <IconMessages className="h-4 w-4 text-neutral-500" />,
+    },
   ];
 
   return (
-    <div className="w-full max-w-7xl mx-auto mb-5"> 
-      <Navbar className="w-full bg-slate-50 rounded-lg flex items-center justify-between overflow-hidden">
-        <NavBody className="px-4"> 
-          <NavbarLogo />
-          <NavItems items={navItems} />
-          <div className="flex items-center gap-4">
-            <NavbarButton variant="secondary">Login</NavbarButton>
-            <NavbarButton variant="primary">Book a call</NavbarButton>
-          </div>
-        </NavBody>
-      </Navbar>
+    <div className="relative w-full flex justify-center">
+      <FloatingNav navItems={navItems} className="w-[90%]" />
     </div>
   );
 };
-
-export default NavbarDemo;

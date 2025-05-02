@@ -1,8 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import NavbarDemo from "../navbar";
+
 import { ImagesSliderDemo } from "../sliderImage";
+import { FloatingNavDemo } from "../navbar";
 
 const HeroSection = () => {
   return (
@@ -14,11 +15,8 @@ const HeroSection = () => {
 
       {/* Overlay escuro */}
       <div className="absolute inset-0 bg-black/30 z-1" />
-
-      {/* Navbar sobreposta */}
-      <div className="relative z-2 pt-5">
-        <NavbarDemo />
-      </div>
+      
+        <FloatingNavDemo />
 
       {/* Conteúdo principal */}
       <div className="relative z-2 container mx-auto md:px-6 md:py-24 sm:p-0 flex flex-col md:flex-row items-center justify-between min-h-[calc(100vh-80px)]">

@@ -7,6 +7,7 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 export const FloatingNav = ({
   navItems,
@@ -50,7 +51,7 @@ export const FloatingNav = ({
         {/* Logo - alinhada à esquerda */}
         <div className="flex-shrink-0 ">
           <a href="#" className="flex items-center space-x-3">
-            <img src="/furia.png" alt="logo" width={32} height={32} />
+            <Image src="/furia.png" alt="logo" width={32} height={32} />
             <span className="font-medium text-lg text-black dark:text-white hidden sm:block">
               FURIA Academy
             </span>
